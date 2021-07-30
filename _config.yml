@@ -1,16 +1,10 @@
 # site settings
-title: uusmai
+title: UUSMAI
 subtitle:
 email: Workwithuusmai@gmail.com
 description:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://uusmai.github.io # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
 phone: +66 86354 2644
 
 # homepage tiles
@@ -22,14 +16,15 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
+  GitHub:
   GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
-  Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
+  Google-Plus:
+  Instagram: https://instagram.com/uusmai?utm_medium=copy_link
+  LinkedIn: https://th.linkedin.com/in/sukanya-saysud-184017157
+  Twitter:
   Facebook:
   Slack:
+  Youtube: https://youtube.com/channel/UCLnFlYUEYBgq0_RAFfEGncA
 
 # build settings
 markdown: kramdown
