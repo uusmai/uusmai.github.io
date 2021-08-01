@@ -1,8 +1,8 @@
 # site settings
-title: UUSMAI
+title: SUKANYA
 subtitle:
-email: Workwithuusmai@gmail.com
-description:
+email: workwithuusmai@gmail.com
+description: It’s my portfolio here
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://uusmai.github.io # the base hostname & protocol for your site
 phone: +66 86354 2644
