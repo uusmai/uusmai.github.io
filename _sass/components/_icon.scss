@@ -37,13 +37,13 @@
 
 			&:hover {
 				&:before {
-					background-color: _palette(accent3);
+					background-color: _palette(link-color);
 				}
 			}
 
 			&:active {
 				&:before {
-					background-color: desaturate(darken(_palette(accent3), 15), 5);
+					background-color: desaturate(darken(_palette(link-color), 15), 5);
 				}
 			}
 		}

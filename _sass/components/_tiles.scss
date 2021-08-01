@@ -110,12 +110,14 @@
 			&:nth-child(6n - 5) {
 				&:before {
 					background-color: _palette(accent1);
+					opacity: 0.5;
 				}
 			}
 
 			&:nth-child(6n - 4) {
 				&:before {
 					background-color: _palette(accent2);
+					opacity: 0.5;
 				}
 			}
 

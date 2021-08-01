@@ -2,8 +2,7 @@
 layout: page
 title: ABOUT
 nav-menu: true
-image: "/assets/images/banner.jpg"
-show_tile: false
+image: "/assets/images/sukanya-banner.jpg"
 ---
 
 <!-- Main -->
