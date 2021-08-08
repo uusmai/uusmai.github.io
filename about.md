@@ -47,7 +47,7 @@ image: "/assets/images/sukanya-banner.jpg"
             <p>
                 <span class="text-weight-main">Graphic Designer</span><br>
                 <span class="text-weight-main">at 3 Lines Communication</span><br>
-                Digital margeting, graphic design, social media content and ads optimization.
+                Digital marketing, graphic design, social media content and ads optimization.
             </p>
             <strong>2016 - 2018</strong>
             <p>
@@ -69,7 +69,7 @@ image: "/assets/images/sukanya-banner.jpg"
                 Figma<br>
                  Design Thinking<br>
             </p>
-            <h2 id="content" class="text-color-main">REWORDS</h2>
+            <h2 id="content" class="text-color-main">REWARDS</h2>
             <strong>2019 - MAY</strong>
             <p>
                 <span class="text-weight-main">Special Rewards by Sansiri</span><br>
