@@ -29,7 +29,15 @@
     color: black;
   }
 
-  .text-color-main{
+  .text-color-main {
     color: _palette(bg-alt);
+  }
+
+  .text-no-margin {
+    margin: 0;
+  }
+
+  .no-font-weight {
+    font-weight: 100;
   }
 }

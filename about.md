@@ -10,29 +10,26 @@ image: "/assets/images/sukanya-banner.jpg"
     <!-- One -->
     <section id="one">
         <div class="inner text-black">
-            <h3 class="text-color-main">
+            <h3 class="text-color-main text-no-margin no-font-weight">
                 Hello, My name is
             </h3>
-            <h1 class="text-black">Sukanya Saysud (Beer)</h1>
-            <h3 class="text-color-main">
-                graphic designer,  illustrator & author
+            <h1 class="text-black text-no-margin">Sukanya Saysud (Beer)</h1>
+            <h3 class="text-color-main no-font-weight">
+                A graphic designer,  illustrator & author
             </h3>
-            <!-- Content -->
-            <p>
-				I’m a Graphic designer <br>
-				for the product owners who like to put more creativity to their products.<br>
-				I like to learn new things and achieve my skill that I can apply to my work.
-			</p>
-            <h2 id="content" style="text-decoration: underline;" class="text-color-main">ABOUT ME</h2>
+            <image src="./assets/images/sukanya-02-banner.jpg"></image>
+            <br>
+            <br>
+            <h2 id="content" class="text-color-main">ABOUT ME</h2>
             <p>
 				My name is Sukanya Saysud. I have graduated from King Mongkut's University of Technology Thonburi with Bachelor of Science in Applied Computer Science - Multimedia. I am a graphic designer, illustrator and author. I have been working on small projects as a designer and a content creator. My passion is to design that everyone can use. I would like to make sure that our concept will come to life.
 			</p>
-			<h2 id="content" style="text-decoration: underline;" class="text-color-main">EDUCATION</h2>
+			<h2 id="content" class="text-color-main">EDUCATION</h2>
             <p>
                 2015 - 2011 <br>
                 Bachelor’s Degree King Mongkut's University of Technology Thonburi Science Program in Applied Computer Science Multimedia.
             </p>
-			<h2 id="content" style="text-decoration: underline;" class="text-color-main">WORK EXPERIENCES</h2>
+			<h2 id="content" class="text-color-main">WORK EXPERIENCES</h2>
             <p>
                 Present - 2020 <br>
                 Freelancer Graphic designer, illustrator and author working on small projects as designer and content creator.
@@ -49,7 +46,7 @@ image: "/assets/images/sukanya-banner.jpg"
                 2018 - 2016 <br>
                 Graphic Designer at Shangri-La Hotel, Bangkok Graphic design and editorial design
             </p>
-            <h2 id="content" style="text-decoration: underline;" class="text-color-main">SKILLS</h2>
+            <h2 id="content" class="text-color-main">SKILLS</h2>
             <p>
             Graphic Design 
             UX Design 
@@ -63,7 +60,7 @@ image: "/assets/images/sukanya-banner.jpg"
             Wordpress 
             Figma
             </p>
-            <h2 id="content" style="text-decoration: underline;" class="text-color-main">REWORDS</h2>
+            <h2 id="content" class="text-color-main">REWORDS</h2>
             <p>
                 MAY - 2019
                 Special Rewards by Sansiri 

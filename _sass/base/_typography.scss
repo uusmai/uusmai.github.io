@@ -11,6 +11,7 @@
 		font-family: _font(family);
 		font-size: 17pt;
 		font-weight: _font(weight);
+		font-style: normal;
 		letter-spacing: _font(letter-spacing);
 		line-height: 1.65;
 
@@ -37,11 +38,11 @@
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(bg-alt) !important;
+			color: _palette(link-color) !important;
 		}
 
 		&:active {
-			color: desaturate(darken(_palette(highlight), 15), 5) !important;
+			color: desaturate(darken(_palette(link-color), 15), 5) !important;
 		}
 	}
 
