@@ -9,19 +9,18 @@
 {% include head.html %}
 
 <body>
-
     {% include header.html %}
-
     <!-- Banner -->
     <section id="banner" class="major">
         <div class="inner">
             <header class="major">
                 <h1>{{ page.landing-title }}</h1>
             </header>
+            <p style="text-transform: uppercase;font-weight: 600;letter-spacing: .25em;">{{ page.description }}</p>
             <div class="content">
                 <p style="text-transform: uppercase;">{{ site.description }}</p>
                 <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                    <li><a href="aportfolio.html" class="button next scrolly">Get Started</a></li>
                 </ul>
             </div>
         </div>
@@ -29,27 +28,11 @@
 
     <!-- Main -->
     <div id="main">
-
         <!-- One -->
         {% include tiles.html %}
-
         <!-- Two -->
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>Massa libero</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul>
-            </div>
-        </section>
-
     </div>
-
     {% include footer.html %}
-
 </body>
 
 </html>

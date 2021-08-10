@@ -6,89 +6,56 @@
 
 /* Contact */
 
-	#contact {
-		border-bottom: solid 1px _palette(border);
-		overflow-x: hidden;
+#contact {
+  // border-bottom: solid 1px _palette(border);
+  overflow-x: hidden;
 
-		> .inner {
-			@include vendor('display', 'flex');
-			padding: 0 !important;
+  > .inner {
+    @include vendor("display", "flex");
+    padding: 0 !important;
 
-			> :nth-child(2n - 1) {
-				@include padding(4em, 0, (0, 3em, 0, 0));
-				border-right: solid 1px _palette(border);
-				width: 60%;
-				z-index: 1;
-			}
+    > :nth-child(2n - 1) {
+      @include padding(4em, 0, (0, 3em, 0, 0));
+      z-index: 1;
+      width: 30%;
+    }
 
-			> :nth-child(2n) {
-				padding-left: 3em;
-				width: 40%;
-			}
+    > :nth-child(2n) {
+      padding-top: 4em;
+      padding-left: 3em;
+      width: 35%;
+    }
 
-			> .split {
-				padding: 0;
+    > :nth-child(4n-1) {
+      padding-top: 4em;
+      padding-left: 3em;
+      width: 30%;
+    }
+  }
 
-				> * {
-					@include padding(3em, 0, (0, 0, 0, 3em));
-					position: relative;
+  @include breakpoint(medium) {
+    > .inner {
+      display: block;
+      margin-top: 4em !important;
 
-					&:before {
-						border-top: solid 1px _palette(border);
-						content: '';
-						display: block;
-						margin-left: -3em;
-						position: absolute;
-						top: 0;
-						width: calc(100vw + 3em);
-					}
-				}
+      > :nth-child(2n - 1) {
+        padding: 0;
+        border-right: 0;
+        width: 100%;
+      }
 
-				> :first-child {
-					&:before {
-						display: none;
-					}
-				}
-			}
-		}
+      > :nth-child(2n) {
+        padding: 0;
+        width: 100%;
+      }
+    }
+  }
 
-		@include breakpoint(medium) {
-			> .inner {
-				display: block;
-
-				> :nth-child(2n - 1) {
-					@include padding(4em, 0, (0, 0, 0, 0));
-					border-right: 0;
-					width: 100%;
-				}
-
-				> :nth-child(2n) {
-					padding-left: 0;
-					width: 100%;
-				}
-
-				> .split {
-					> * {
-						@include padding(3em, 0, (0, 0, 0, 0));
-
-						&:before {
-						}
-					}
-
-					> :first-child {
-						&:before {
-							display: block;
-						}
-					}
-				}
-			}
-		}
-
-		@include breakpoint(small) {
-			> .inner {
-				> :nth-child(2n - 1) {
-					@include padding(3em, 0, (0, 0, 0, 0));
-				}
-			}
-		}
-	}
+  @include breakpoint(small) {
+    > .inner {
+      > :nth-child(2n - 1) {
+        @include padding(3em, 0, (0, 0, 0, 0));
+      }
+    }
+  }
+}
