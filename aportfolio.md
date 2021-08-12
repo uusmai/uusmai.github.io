@@ -10,8 +10,11 @@ image: "/assets/images/portfolio-02-banner.jpg"
     <section id="one">
         <div class="inner text-black">
             <h1 class="text-color-main text-no-margin">My Portfolio</h1>
+            <br>
             <div class="container">
-                <img src="./assets/images/shangrila-cover-1600x800px.jpg" class="image">
+                <a href="/shangri-la.html">
+                    <img src="./assets/images/shangrila-cover-1600x800px.jpg" class="image">
+                </a>
                 <div class="middle">
                     <div class="text text-weight-main">
                         <strong>Shangri-La Hotel, Bangkok</strong>
@@ -25,7 +28,9 @@ image: "/assets/images/portfolio-02-banner.jpg"
             <div class="row">
                 <div class="6u 12u$(small)">
                     <div class="container">
-                        <img src="./assets/images/3lines-cover-800x800px.jpg" class="image">
+                        <a href="/3line.html">
+                            <img src="./assets/images/3lines-cover-800x800px.jpg" class="image">
+                        </a>
                         <div class="middle">
                             <div class="text text-weight-main">
                                 <strong>3 Lines Communication</strong>
@@ -38,7 +43,9 @@ image: "/assets/images/portfolio-02-banner.jpg"
                 </div>
                 <div class="6u$ 12u$(small)">
                     <div class="container">
+                    <a href="/skhai.html">
                         <img src="./assets/images/Skhai-Cover.png" class="image">
+                        </a>
                         <div class="middle">
                             <div class="text">
                                 <strong>SKHAI Property Development</strong>
@@ -52,7 +59,9 @@ image: "/assets/images/portfolio-02-banner.jpg"
             </div>
             <br />
             <div class="container">
+            <a href="/the-upgrade-logo.html">
                 <img src="./assets/images/the-upgrade-cover-1600x800px.jpg" class="image">
+                </a>
                 <div class="middle">
                     <div class="text text-weight-main">
                         <strong>The Upgrade</strong>
@@ -66,7 +75,9 @@ image: "/assets/images/portfolio-02-banner.jpg"
             <div class="row">
                 <div class="6u 12u$(small)">
                     <div class="container">
+                    <a href="/the-upgrade-website.html">
                         <img src="./assets/images/the-upgrade-website-cover-800x800px.jpg" class="image">
+                        </a>
                         <div class="middle">
                             <div class="text text-weight-main">
                                 <strong>The Upgrade</strong>
@@ -79,7 +90,9 @@ image: "/assets/images/portfolio-02-banner.jpg"
                 </div>
                 <div class="6u$ 12u$(small)">
                     <div class="container">
+                    <a href="/the-funroom-logo.html">
                         <img src="./assets/images/the-fun-social-media-cover-800x800px.jpg" class="image">
+                        </a>
                         <div class="middle">
                             <div class="text">
                                 <strong>The Fun Room Clinic</strong>
@@ -93,13 +106,15 @@ image: "/assets/images/portfolio-02-banner.jpg"
             </div>
             <br>
             <div class="container">
+                <a href="/the-funroom-website.html">
                 <img src="./assets/images/the-fun-room-cover-1600x800px.jpg" class="image">
+                </a>
                 <div class="middle">
                     <div class="text text-weight-main">
                         <strong>The Fun Room Clinic</strong>
                     </div>
                     <div classs="text">
-                        Working on creative contemt for The fun room dental clinic.
+                        Working on creative content for The fun room dental clinic.
                     </div>
                 </div>
             </div>

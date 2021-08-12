@@ -47,6 +47,7 @@
 
   .container {
     position: relative;
+    margin-bottom: 1rem;
   }
 
   .image {
@@ -72,5 +73,24 @@
 
   .container:hover .middle {
     opacity: 1;
+  }
+
+  .text-line {
+    border-bottom: 3px solid;
+  }
+
+  .row-flex {
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 480px) {
+    .row-flex {
+      display: block;
+    }
+
+    .container{
+      margin-bottom: 1rem;
+    }
   }
 }
