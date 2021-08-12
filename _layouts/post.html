@@ -17,12 +17,15 @@
 <div id="main" class="alt">
 
 <!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h1>{{ page.title }}</h1>
-		</header>
-		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+<section id="main">
+	<div class="inner blog">
+		<div class="blog-title">
+			<h2 style="font-family: 'Prompt', sans-serif !important;color: black !important;margin-bottom: 1rem;">{{ page.title }}</h2>
+		</div>
+		<br>
+		{% if page.image %}<img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+		<br>
+		<br>
 		{{ content }}
 	</div>
 </section>
