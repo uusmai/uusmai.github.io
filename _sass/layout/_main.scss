@@ -62,15 +62,12 @@
     transition: 0.5s ease;
     opacity: 0;
     position: absolute;
-    top: 20%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+    top: 10%;
+    left: 10%;
   }
 
   .container:hover .image {
-    opacity: 0.3;
+    opacity: 0.2;
   }
 
   .container:hover .middle {
