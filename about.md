@@ -23,7 +23,7 @@ image: "/assets/images/sukanya-banner.jpg"
                 author. I have been working on small projects as a designer and a content creator. My passion is to
                 design that everyone can use. I would like to make sure that our concept will come to life.
             </p>
-            <h2 id="content" class="text-color-main">EDUCATION</h2>
+            <!-- <h2 id="content" class="text-color-main">EDUCATION</h2>
             <strong>2011 - 2015</strong>
             <div class="text-weight-main">Bachelor’s Degree</div>
             <p>
@@ -75,4 +75,4 @@ image: "/assets/images/sukanya-banner.jpg"
                 <span class="text-weight-main">Special Rewards by Sansiri</span><br>
                 Create New Era of Tourism in Thailand “Hackatravel” by Take Me Tour
             </p>
-            <image src="./assets/images/hackatravel-rewards-02.jpg"></image>
+            <image src="./assets/images/hackatravel-rewards-02.jpg"></image> -->
