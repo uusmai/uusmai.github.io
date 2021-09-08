@@ -3,6 +3,7 @@ title: BLOG
 layout: page
 nav-menu: true
 image: "/assets/images/city-banner.jpg"
+show_tile: false
 ---
 
 <div id="main" class="alt">
@@ -19,18 +20,6 @@ image: "/assets/images/city-banner.jpg"
                         <img src="./assets/images/do-do-list.png">
                         <p style="text-align: center;font-family: 'Prompt', sans-serif;font-weight: 400;">To-Do List เพิ่มประสิทธิภาพการทำงาน (Productive)</p>
                         </a>
-                    </div>
-                </div>
-                <div class="4u 12u$(small)">
-                    <div class="container" >
-                        <img src="./assets/images/the-upgrade-800x800px.jpg">
-                        <p style="text-align: center;font-family: 'Prompt', sans-serif;font-weight: 400;">The Upgrade</p>
-                    </div>
-                </div>
-                <div class="4u 12u$(small)">
-                    <div class="container" >
-                        <img src="./assets/images/organic-pavilion-cover-800x800px.jpg">
-                        <p style="text-align: center;font-family: 'Prompt', sans-serif;font-weight: 400;">Organic Pavilion</p>
                     </div>
                 </div>
             </div>
