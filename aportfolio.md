@@ -163,6 +163,7 @@ image: "/assets/images/portfolio-02-banner.jpg"
             <div class="row">
                 <div class="6u 12u$(small)">
                     <div class="container">
+                    <a href="https://store.line.me/stickershop/product/16157824/th" target="_blank">
                         <img src="./assets/images/soft-pillow-cover-800x800px.jpg" class="image">
                         <div class="middle">
                             <div class="text text-weight-main">
@@ -173,6 +174,7 @@ image: "/assets/images/portfolio-02-banner.jpg"
                             </div>
                         </div>
                     </div>
+                    </a>
                 </div>
             </div>
             <br>
